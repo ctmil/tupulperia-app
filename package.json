@@ -1,21 +1,24 @@
 {
-  "name": "tupulperia",
-  "displayName": "Tu Pulperia",
-  "version": "1.0.0",
-  "description": "Aplicación de Tienda Tu Pulpería.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Mario Orrillo",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "cordova-plugin-whitelist": "^1.3.2"
-  },
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-whitelist": {}
+    "name": "tupulperia",
+    "displayName": "Tu Pulperia",
+    "version": "1.0.0",
+    "description": "Aplicación de Tienda Tu Pulpería.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "platforms": []
-  }
+    "author": "Mario Orrillo",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
 }

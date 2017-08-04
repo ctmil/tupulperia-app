@@ -1,8 +1,8 @@
 var QBconfig = {
     credentials: {
-        appId: 60737,
-        authKey: 'UAxhFgXnRuP3qjL',
-        authSecret: 'OBqdPLxaX9SsXUT'
+        appId: 60978,
+        authKey: 'W3qH59Sut3L5JSA',
+        authSecret: 'dvGedFWBvz86bv2'
     },
     appConfig: {
         chatProtocol: {
